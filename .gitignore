@@ -1,0 +1,34 @@
+# --- Environment / secrets ---
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# --- PHP / Composer ---
+/vendor/
+backend/vendor/
+
+# --- Node ---
+/node_modules/
+frontend/node_modules/
+
+# --- Laravel ---
+backend/bootstrap/cache/*.php
+backend/storage/app/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+backend/public/build/
+backend/public/hot
+
+# --- SQLite (keep the empty schema file, ignore live DB artifacts) ---
+database/*.db-wal
+database/*.db-shm
+database/*.sqlite-journal
+
+# --- OS / editors ---
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
